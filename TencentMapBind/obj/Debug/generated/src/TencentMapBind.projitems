@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.Internal.TencentExtraKeys.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.ITencentLocation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.ITencentLocationListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.ITencentPoi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.TencentGeofence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.TencentGeofenceManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.TencentLocationManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.TencentLocationManagerOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.TencentLocationRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.TencentLocationUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.Util.DateUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.Util.Files.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Map.Geolocation.Util.SoUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.BitmapDescriptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.BitmapDescriptorFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.CameraPosition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.CircleOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.GeoPoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.GroundOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.GroundOverlayOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.IOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.ITileProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.LatLng.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.LatLngBounds.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.Marker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.MarkerOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.Polygon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.PolygonOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.Polyline.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.PolylineOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.QMapLanguage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.TencentMapOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.Tile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.TileOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.TileOverlayOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.UrlTileProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Raster.Model.VisibleRegion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Mapsdk.Rastercore.Tile.MapTile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.CameraUpdate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.CameraUpdateFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.ICancelableCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.IOnMapHitListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.IOnMapLongPressListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.ItemizedOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.MapActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.MapController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.MapFragmentUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.MapView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.Overlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.OverlayItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.Projection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.TencentMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Tencent.Tencentmap.Mapsdk.Map.UiSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

@@ -1,0 +1,6 @@
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.tencent.map.geolocation", Managed="Com.Tencent.Map.Geolocation")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.tencent.map.geolocation.internal", Managed="Com.Tencent.Map.Geolocation.Internal")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.tencent.map.geolocation.util", Managed="Com.Tencent.Map.Geolocation.Util")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.tencent.mapsdk.raster.model", Managed="Com.Tencent.Mapsdk.Raster.Model")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.tencent.mapsdk.rastercore.tile", Managed="Com.Tencent.Mapsdk.Rastercore.Tile")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.tencent.tencentmap.mapsdk.map", Managed="Com.Tencent.Tencentmap.Mapsdk.Map")]

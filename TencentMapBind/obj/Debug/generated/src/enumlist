@@ -1,0 +1,3 @@
+com.tencent.mapsdk.raster.model.QMapLanguage:Com.Tencent.Mapsdk.Raster.Model:QMapLanguage
+com.tencent.mapsdk.rastercore.tile.MapTile$MapSource:Com.Tencent.Mapsdk.Rastercore.Tile:MapTile.MapSource
+com.tencent.tencentmap.mapsdk.map.ItemizedOverlay$BoundPos:Com.Tencent.Tencentmap.Mapsdk.Map:ItemizedOverlay.BoundPos

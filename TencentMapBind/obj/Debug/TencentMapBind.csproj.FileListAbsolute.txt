@@ -1,0 +1,5 @@
+C:\Users\23722\source\repos\TencentMapBind\TencentMapBind\bin\Debug\TencentMapBind.dll
+C:\Users\23722\source\repos\TencentMapBind\TencentMapBind\bin\Debug\TencentMapBind.pdb
+C:\Users\23722\source\repos\TencentMapBind\TencentMapBind\obj\Debug\TencentMapBind.csproj.CoreCompileInputs.cache
+C:\Users\23722\source\repos\TencentMapBind\TencentMapBind\obj\Debug\TencentMapBind.dll
+C:\Users\23722\source\repos\TencentMapBind\TencentMapBind\obj\Debug\TencentMapBind.pdb
